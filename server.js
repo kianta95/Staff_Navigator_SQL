@@ -201,9 +201,12 @@ async function addRole() {
 
 // Function to add an employee
 async function addEmployee() {
+  const { default: inquirer } = await import("inquirer"); // Import inquirer
+
   const roles = await pool.query("SELECT * FROM roles");
   const employees = await pool.query("SELECT * FROM employees");
   const { first_name, last_name, role_id, manager_id } = await inquirer.prompt([
+
     {
       type: "input",
       name: "first_name",
@@ -256,8 +259,8 @@ async function addEmployee() {
     console.log("Employee added successfully.");
     await pool.query("COMMIT");
   } catch (error) {
+    console.error("Error adding employee:", error.message); // Specific error message
     await pool.query("ROLLBACK");
-    console.error("Error adding department:", error.message);
   }
 }
 
