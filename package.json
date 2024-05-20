@@ -2,7 +2,7 @@
   "dependencies": {
     "esm": "^3.2.25",
     "express": "^4.19.2",
-    "inquirer": "^9.2.21",
+    "inquirer": "^8.2.4",
     "pg": "^8.11.5"
   }
 }

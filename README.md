@@ -36,6 +36,7 @@ Select the desired action from the menu (e.g., View Employees, Add Employee, Upd
 Follow the prompts to complete the chosen action.
 Enjoy efficient management of your company's employees!
 
+Link: https://drive.google.com/file/d/111xR9Zkc1oVdw62iZJztfgJGbN-gKuCN/view
 
 ![Photo of Database in terminal](images/SQL.png)
 ![Additional Photo of Database in terminal](images/SQL2.png)
