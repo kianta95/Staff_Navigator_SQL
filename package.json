@@ -4,5 +4,17 @@
     "express": "^4.19.2",
     "inquirer": "^8.2.4",
     "pg": "^8.11.5"
-  }
+  },
+  "name": "staff_navigator_sql",
+  "version": "1.0.0",
+  "description": "Staff Navigator",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
